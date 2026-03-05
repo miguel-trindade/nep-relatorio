@@ -1,0 +1,30 @@
+body{
+font-family:Arial;
+background-color: var(--fhemig) ;
+text-align:center;
+}
+
+:root {
+    --amarelo: yellow;
+    --branco: white;
+    --preto: black;
+    --fhemig: #0096bb;
+
+}
+
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+padding:40px;
+}
+
+a{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
