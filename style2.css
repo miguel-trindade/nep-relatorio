@@ -1,6 +1,6 @@
 body{
 font-family:Arial;
-background-color: linear-gradient(135deg,#1f2937,#374151);
+background-color: red;
 text-align:center;
 }
 
@@ -28,3 +28,4 @@ text-decoration:none;
 color:black;
 font-weight:bold;
 }
+
